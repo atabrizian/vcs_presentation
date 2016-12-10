@@ -1,1 +1,1 @@
-# vcs_presentation
+# A presentation about "version control systems" using impress.js
