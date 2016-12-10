@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>Version Control Systems | A presentation by: Arash Tabrizian</title>
+
+    <meta name="description"
+          content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com."/>
+    <meta name="author" content="Bartek Szopka"/>
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic"
+          rel="stylesheet"/>
+    <title>Title</title>
+
+    <link href="css/impress-demo.css" rel="stylesheet"/>
+</head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified
+        version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+    <div id="bored" class="step slide" data-x="-1000" data-y="-1500" style="text-align: center">
+        <img src="images/bored.gif">
+    </div>
+    
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <ul style="list-style: circle">
+            <li>What is a "Version Control System"?</li>
+            <li>Why should you care?</li>
+            <li>Basic Comparison</li>
+        </ul>
+
+        <span class="footnote"><sup>*</sup> With a basic look at git commands</span>
+    </div>
+
+    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        <h1>What is a "Version Control System"?</h1>
+        <p>It's a system that records changes to a file or set of files over time <br>
+            so that you can recall specific versions later.</p>
+    </div>
+
+    <div id="care" class="step" data-x="3500" data-y="2100" data-rotate="180">
+        <h1><b>Why should you care?</b></h1>
+        <ul style="list-style: disc; font-size: 38px;">
+            <li>Keep track of changes in files</li>
+            <li>Cooperate easier</li>
+            <li>Who did what, when did (s)he do it and why?</li>
+            <li>Maintain multiple versions of a project (branching)</li>
+            <li>Project Progress Control (Merge Policy)</li>
+            <li>Integration with other systems (hooks)</li>
+        </ul>
+    </div>
+
+    <div id="distributed" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p style="text-align: justify"><b>Centralized vs Distributed</b><br>In distributed version control
+            rather than a single, central repository on which clients synchronize,
+            each peer's working copy of the codebase is a complete repository.</p>
+    </div>
+
+    <div id="comparison" class="step" data-x="3500" data-y="-850" data-rotate="270" style="font-size: 28px;">
+        <ul style="list-style: circle"><b>Comparison of major software in use topics</b>
+            <li>Software</li>
+            <li>Atomic Commit</li>
+            <li>File Renames</li>
+            <li>Merge File Rename</li>
+            <li>Symbolic Link</li>
+            <li>Pre/Post Hooks</li>
+            <li>Signed Revisions</li>
+            <li>Merge Tracking</li>
+            <li>End of Line Conversion</li>
+            <li>Tags</li>
+            <li>International Support</li>
+            <li>Unicode Filename Support</li>
+            <li>Supports Large Repos</li>
+        </ul>
+        <a href="https://www.wikiwand.com/en/Comparison_of_version_control_software">https://www.wikiwand.com/en/Comparison_of_version_control_software</a>
+    </div>
+
+    <div id="imagination" class="step" data-x="4700" data-y="-300" data-scale="6">
+        <p style="text-align: center"><b>Git</b></p>
+        <p>Why it has become so popular?</p>
+    </div>
+
+    <div id="one-more-thing" class="step" data-x="4000" data-y="1000" data-scale="2">
+        <h1>Basic Commands</h1>
+        <ul style="list-style: circle; font-size: 32px;">
+            <li>init</li>
+            <li>clone</li>
+            <li>pull</li>
+            <li>push</li>
+            <li>merge</li>
+            <li>checkout</li>
+            <li>branch</li>
+            <li>log</li>
+            <li>status</li>
+            <li>add</li>
+            <li>commit</li>
+        </ul>
+    </div>
+
+    <div id="its-in-3d" class="step" data-x="3200" data-y="2800" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p style="text-align: center;"><img src="images/giphy.gif" alt=""></p>
+    </div>
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+</div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+</body>
+</html>
